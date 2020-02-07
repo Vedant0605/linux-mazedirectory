@@ -18,13 +18,13 @@ dictQ={
 By starting with 0 and 1, the first 10 terms will be:\n\
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ...\n\
 find the 24th term in the fibonacci number.\n',
-'1':'\nWhat is the name of android version 4.4.4\n',
-'2':'\n1 MB = __ bits\n',
-'3':'\nFTP stands for\n',
-'4':'\nWhich company was recently taken over by Walmart\n',
+'1':'\nWhich is the latest python version released in December, 2019 ?\n',
+'2':'\n1 mb = __ B ?\n',
+'3':'\nFTP stands for  ?\n',
+'4':'\nThe sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.Find the sum of all the primes below 10,000.\n',
 '6':'\nIf we list all the natural numbers below 10 that are multiples of 3 or 5,\nwe get 3, 5, 6 and 9. The sum of these multiples is 23.\n\
 Find the sum of all the multiples of 3 or 5 below 1000.',
-'5':'\nSum of squares of first 25 natural numbers\n'
+'5':'\nThe sum of the squares of the first ten natural numbers is,(1^2+2^2+...+10^2) = 385\n.The square of the sum of the first ten natural numbers is,\n(1+2+...+10)^2=3025\nHence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025−385=2640.\nFind the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.\n'
 }
 '''
 
@@ -34,11 +34,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.',
 
 '''
 dictans={
-         '1':'kitkat',
-         '2':'8000000',
+         '1':'3.8',
+         '2':'125000',
          '3':'File Transfer protocol',
-         '4':'Flipkart',
-         '5':'5525',
+         '4':'5736396',
+         '5':'25164150',
          '6':'233168',
          '7':'46368'
          }
