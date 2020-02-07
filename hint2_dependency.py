@@ -27,7 +27,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.',
 '5':'\nSum of squares of first 25 natural numbers\n'
 }
 '''
-NBNASD23BFUABUBAW5UBEBFUAWB
+
 
 
 
@@ -76,4 +76,5 @@ with open("Depend.pkl","wb") as file:
 #JDALSHFUIAHILEFBIASBCVAYUSBD
 #AWECBABVBAYWEBRUVBAUSBDHF23
 #NBNASD23BFUABUBAW5UBEBFUAWB
+
 
