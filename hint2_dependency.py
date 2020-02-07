@@ -1,11 +1,11 @@
 import pickle
-dict1={'1':'Desktop/Flagfolders/Folder1/falg1.txt',
-       '2':'Desktop/Flagfolders/Folder3/Folder2/Folder3/flag2.txt',
-       '3':'Desktop/Flagfolders/Folder3/Folder2/Folder1/flag3.txt',
-       '4':'Desktop/Flagfolders/Folder2/Folder2/Folder2/Folder2/Folder1/flag4.txt',
-       '5':'Desktop/Flagfolders/Folder2/Folder2/Folder1/flag5.txt',
-       '6':'Desktop/Flagfolders/Folder2/Folder2/Folder3/Folder1/Folder3/flag6.txt',
-       '7':'Desktop/Flagfolders/Folder2/Folder2/Folder3/flag7.txt'
+dict1={'1':'Folder Name: First  Location: Placed where all DOWNLOADS are saved.  File Name: flag1.txt',
+       '2':'Folder Name: Second  Location: Placed where all MUSIC are saved.  File Name: flag2.txt',
+       '3':'Folder Name: Third  Location: Placed where all MEDIA devices are located.  File Name: flag3.txt',
+       '4':'Folder Name: Fourth  Location: Placed where ROOT login is saved.  File Name: flag4.txt',
+       '5':'Folder Name: Fifth  Location: Placed where all 32 Bit LIBRARY files are saved.  File Name: flag5.txt',
+       '6':'Folder Name: Sixth  Location: Placed where we MOUNT our external devices.  File Name: flag6.txt',
+       '7':'Folder Name: Seventh  Location: Placed where all TEMPORARY are saved.  File Name: flag7.txt'
        }
 '''
 
@@ -27,7 +27,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.',
 '5':'\nSum of squares of first 25 natural numbers\n'
 }
 '''
-
+NBNASD23BFUABUBAW5UBEBFUAWB
 
 
 
@@ -76,5 +76,4 @@ with open("Depend.pkl","wb") as file:
 #JDALSHFUIAHILEFBIASBCVAYUSBD
 #AWECBABVBAYWEBRUVBAUSBDHF23
 #NBNASD23BFUABUBAW5UBEBFUAWB
-
 
