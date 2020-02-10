@@ -49,13 +49,13 @@ def main():
 	x=1
 	adflag=0
 	points=0
-	name=input("Enter your name:")
+	name=input("Enter your name : ")
 	lsttime=[]
 	t = time.time()
 	while x!=8:
 		t=time.time()
-		print(f"Your Question:{dictQ[str(x)]}\n\nEnter Hint to get a hint(-3 points)\n")
-		inp=input("Answer:")
+		print(f" Question : {dictQ[str(x)]}\n\nEnter 'Hint' to display a hint(-3 points)\n")
+		inp=input("Enter your Answer : ")
 		if inp.lower()=='adminexit':
 			obj=temp(name,points,attempts,lsttime)
 			for z in range(0,20):
@@ -77,13 +77,13 @@ def main():
 				points-=ANSWER_SKIP_PENALTY
 				flk=''
 				print(f"\nGo to ",dict1[str(x)],"\n")
-				while flk.lower()!="skip":
+				while flk.lower()!="flag skip":
 					flk=input("Enter the flag:")
 					if flk==dictflag[str(x)]:
 						points+=FLAG_BONUS
 						os.system("clear")
 						break
-					elif flk.lower()=='skip':
+					elif flk.lower()=='flag skip':
 						os.system('clear')
 						print("\nFlag skipped\n")
 					else:
@@ -97,13 +97,13 @@ def main():
 					lsttime.append(time.time() - t)
 					print(f"\nTime taken for this Question: {time.time() - t} Seconds\n")
 					fl=''
-					while fl.lower()!="skip":
+					while fl.lower()!="flag skip":
 						fl=input("Enter the flag:")
 						if fl==dictflag[str(x)]:
 							points+=5
 							os.system("clear")
 							break
-						elif fl.lower()=='skip':
+						elif fl.lower()=='flag skip':
 							os.system('clear')
 							print("\nFlag skipped\n")
 						else:
@@ -146,15 +146,42 @@ def read1():
 
 def intro():
 	text = """
-	Each answer carries 10 points and each correct flag give you +5 points
+	
+.___  ___.      ___      ________   _______   ______   ______    _______   _______ .______          _______.
+|   \/   |     /   \    |       /  |   ____| /      | /  __  \  |       \ |   ____||   _  \        /       |
+|  \  /  |    /  ^  \   `---/  /   |  |__   |  ,----'|  |  |  | |  .--.  ||  |__   |  |_)  |      |   (----`
+|  |\/|  |   /  /_\  \     /  /    |   __|  |  |     |  |  |  | |  |  |  ||   __|  |      /        \   \    
+|  |  |  |  /  _____  \   /  /----.|  |____ |  `----.|  `--'  | |  '--'  ||  |____ |  |\  \----.----)   |   
+|__|  |__| /__/     \__\ /________||_______| \______| \______/  |_______/ |_______|| _| `._____|_______/    
+                                                                                                            
 
 
-	Enter In 'Answer skip' to skip the question with a 7 point penalty.
-	Enter skip at flag prompt to skip flag (No +5 bonus).
-	Enter hint to get a hint with a 3 point penalty.
 
-	ENTER START:
-	"""
+ ______        ______    __    __  .__   __.  _______      __   __  
+|   _  \      /  __  \  |  |  |  | |  \ |  | |       \    |  | |  | 
+|  |_)  |    |  |  |  | |  |  |  | |   \|  | |  .--.  |   |  | |  | 
+|      /     |  |  |  | |  |  |  | |  . `  | |  |  |  |   |  | |  | 
+|  |\  \----.|  `--'  | |  `--'  | |  |\   | |  '--'  |   |  | |  | 
+| _| `._____| \______/   \______/  |__| \__| |_______/    |__| |__| 
+                                                                    
+
+Read The following Instructions carefully ! 
+
+You must answer the questions displayed on the screen to get the 'location' of the flag file.
+
+You must use the terminal and find the flag file.
+
+Enter the designated 'flag' value to proceed forward. 
+
+Each answer carries 10 points and each correct flag give you +5 points
+
+ONLY TERMINAL AND GEDIT MUST BE USED. USE OF ANY OTHER APPLICATION IS NOT ALLOWED (not even calculators)
+
+Enter In 'Answer skip' to skip the question with a 7 point penalty.
+Enter 'flag skip' at flag prompt to skip flag (No +5 bonus).
+Enter hint to get a hint with a 3 point penalty.
+
+ENTER START to start the game : """
 	#print(text)
 	inp = ""
 	while inp.lower() != "start":

@@ -1,11 +1,11 @@
 import pickle
-dict1={'1':'Folder Name: First  Location: Placed where all DOWNLOADS are saved.  File Name: flag1.txt',
-       '2':'Folder Name: Second  Location: Placed where all MUSIC are saved.  File Name: flag2.txt',
-       '3':'Folder Name: Third  Location: Placed where all MEDIA devices are located.  File Name: flag3.txt',
-       '4':'Folder Name: Fourth  Location: Placed where ROOT login is saved.  File Name: flag4.txt',
-       '5':'Folder Name: Fifth  Location: Placed where all 32 Bit LIBRARY files are saved.  File Name: flag5.txt',
-       '6':'Folder Name: Sixth  Location: Placed where we MOUNT our external devices.  File Name: flag6.txt',
-       '7':'Folder Name: Seventh  Location: Placed where all TEMPORARY are saved.  File Name: flag7.txt'
+dict1={'1':'First  Location:  Placed where all DOWNLOADS are saved.  File Name: flag1.txt',
+       '2':'Second  Location: Placed where all MUSIC are saved.  File Name: flag2.txt',
+       '3':'Third  Location: Placed where all MEDIA devices are located.  File Name: flag3.txt',
+       '4':'Fourth  Location: Placed where ROOT login is saved.  File Name: flag4.txt',
+       '5':'Fifth  Location: Placed where all 32 Bit LIBRARY files are saved.  File Name: flag5.txt',
+       '6':'Sixth  Location: Placed where we MOUNT our external devices.  File Name: flag6.txt',
+       '7':'Seventh  Location: Placed where all TEMPORARY are saved.  File Name: flag7.txt'
        }
 '''
 
@@ -19,7 +19,7 @@ By starting with 0 and 1, the first 10 terms will be:\n\
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ...\n\
 find the 24th term in the fibonacci number.\n',
 '1':'\nWhich is the latest python version released in December, 2019 ?\n',
-'2':'\n1 mb = __ B ?\n',
+'2':'\n1 megabits = __ Bytes ?\n',
 '3':'\nFTP stands for  ?\n',
 '4':'\nThe sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.Find the sum of all the primes below 10,000.\n',
 '6':'\nIf we list all the natural numbers below 10 that are multiples of 3 or 5,\nwe get 3, 5, 6 and 9. The sum of these multiples is 23.\n\
