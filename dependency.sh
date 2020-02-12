@@ -1,14 +1,14 @@
 #!/bin/bash
 
 echo "SAVING FIRST FILE"
-mkdir /home/khurush/Downloads/First
-sudo cat > /home/khurush/Downloads/First/flag1.txt << "EOF"
+mkdir /home/codefiesta/Downloads/First
+sudo cat > /home/codefiesta/Downloads/First/flag1.txt << "EOF"
 CDAKJSHFNKJEL234GFLL9231BWFL1
 EOF
 
 echo "SAVING SECOND FILE:" 
-mkdir /home/khurush/Music/Second
-sudo cat > /home/khurush/Music/Second/flag2.txt << "EOF"
+mkdir /home/codefiesta/Music/Second
+sudo cat > /home/codefiesta/Music/Second/flag2.txt << "EOF"
 OIJONKJBHBHJBUGBSDWE123FL2
 EOF
 
